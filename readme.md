@@ -18,8 +18,8 @@
     <li>Visit Rome &amp; Colosseum Flavian Amphitheatre</li>
     <li>See a live volcano</li>
     <li>See London</li>
-    <li>See Paris &amp; The Eiffel Tower</li>
-    <li>Explore The Louvre</li>
+    <li class="complete">See Paris &amp; The Eiffel Tower</li>
+    <li class="complete">Explore The Louvre</li>
     <li>Visit Santorini,Greece</li>
     <li>See Yosemite</li>
     <li>See the Grand Canyon</li>
@@ -39,11 +39,11 @@
 
 <h2>Professional</h2>
 <ul>
-  <li>Speak at a Conference</li>
-  <li>Give a keynote at a conference</li>
-  <li>Have my work featured in a book</li>
+  <li class="complete">Speak at a Conference</li>
+  <li class="complete">Give a keynote at a conference</li>
+  <li class="complete">Have my work featured in a book</li>
   <li>Write an article for a major publication</li>
   <li>Have my face on the cover of a major publication</li>
-  <li>Build something that millions of people will use</li>
-  <li>Work on a website that millions of people will use</li>
+  <li class="complete">Build something that millions of people will use</li>
+  <li class="complete">Work on a website that millions of people will use</li>
 </ul>
