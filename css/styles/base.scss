@@ -39,10 +39,11 @@ body {
 }
 
 a {
+  color: #333;
   text-decoration: none;
   @include transition(color 0.25s linear);
   &:hover {
-
+    color: $color;
   }
 }
 
@@ -57,11 +58,20 @@ header, section, .container{
   margin-left: auto;
   margin-right: auto;
 }
-
 header{
   text-align: center;
 }
-
+h1{
+  font-weight: 700;
+  color: #999;
+}
+h2{
+  margin: 0;
+  line-height: 1;
+}
+ul{
+  margin-bottom: 20px;
+}
 li{
   &.complete{
     text-decoration: line-through;
