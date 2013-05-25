@@ -13,7 +13,7 @@
   $lucida-grande: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
   $monospace: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
   // TypeKit
-  $skolar: "skolar", helvetica, tahoma, verdana, sans-serif;
+  $adelle: "adelle", helvetica, tahoma, verdana, sans-serif;
   
   
   // Elements
@@ -32,7 +32,7 @@ html, body {
 }
 body {
   background: darken(#fff, 4%);
-  font-family: $skolar;
+  font-family: $adelle;
   -webkit-backface-visibility: hidden;
   text-rendering: optimizelegibility;
   border-top: 5px solid $color;
