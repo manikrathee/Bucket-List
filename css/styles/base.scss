@@ -54,16 +54,21 @@ dl, menu, ol, ul {
 
 header, section, .container{
   width: 550px;
-  max-width: 95%;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 header{
   text-align: center;
 }
+section{
+  padding: 20px 0;
+}
 h1{
+  font-size: 1.5em;
   font-weight: 700;
   color: #999;
+  @include transition(font 1s ease-in-out);
 }
 h2{
   margin: 0;
@@ -136,6 +141,10 @@ ul#social{
 
 
 @media (min-width:  768px) {
+  
+  h1{
+    font-size: 2em;
+  }
   footer{
     text-align: left;
     .body{
