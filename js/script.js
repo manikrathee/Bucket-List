@@ -18,7 +18,7 @@ var $self = $(this);
 
 
 /*  Google Analytics  */
-var googleAnalyticsID = UA-;
+var googleAnalyticsID = 'UA-19400273-20';
 
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', googleAnalyticsID]);
