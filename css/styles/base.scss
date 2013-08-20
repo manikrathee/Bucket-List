@@ -14,8 +14,8 @@
   $monospace: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
   // TypeKit
   $adelle: "adelle", helvetica, tahoma, verdana, sans-serif;
-  
-  
+  $freight: "freight-sans-pro", helvetica, tahoma, verdana, sans-serif;
+
   // Elements
   $divider: 1px solid rgba(229,229,229,1); /* #E5E5E5 */
 
@@ -31,7 +31,7 @@ a:link { -webkit-tap-highlight-color: none; }
 html, body {
 }
 body {
-  background: darken(#fff, 4%);
+  background: darken(#fff, 10%);
   font-family: $adelle;
   -webkit-backface-visibility: hidden;
   text-rendering: optimizelegibility;
@@ -62,7 +62,11 @@ header{
   text-align: center;
 }
 section{
-  padding: 20px 0;
+  background: #fff;
+  border: 1px solid darken(#fff, 5%);
+  width: 500px;
+  max-width: 95%;
+  margin: 0 auto 50px;
 }
 h1{
   font-size: 1.5em;
@@ -72,16 +76,33 @@ h1{
 h1, h1 a{
   color: #999;
 }
+h1 {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 1.5em
+}
+h1 a{
+  display: block;
+  font-size: 0.6em;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: $freight;
+}
 h2{
+  display: block;
+  width: 100%;
+  padding: 20px 5%;
   margin: 0;
+  padding-bottom: 10px;
   line-height: 1;
+  font-family: $freight;
+  font-weight: 100;
+  text-align: right;
+  border-bottom: $divider;
+  @include box;
 }
 ul{
-  margin-bottom: 40px;
-  @include transition(background 0.25s ease-in-out);
-  &:hover{
-    background: darken(#fff, 10%);
-  }
+  padding: 20px 20px 20px 30px;
 }
 li{
   margin-left: 10px;
@@ -110,7 +131,7 @@ footer{
     width: 40%;
     margin: 0 auto 10px;
     border: 3px solid #fff;
-    border-radius: 100px;
+    border-radius: 200px;
     overflow: hidden;
     @include box;
   }
@@ -153,7 +174,7 @@ ul#social{
 
 
 @media (min-width:  768px) {
-  
+
   h1{
     font-size: 2em;
   }
@@ -163,7 +184,7 @@ ul#social{
       padding: 80px;
     }
     ul#social{
-      margin: 4px 0 0 0; 
+      margin: 4px 0 0 0;
     }
     img{
       width: 30%;
@@ -179,4 +200,4 @@ ul#social{
     }
   }
 }
-  
+
